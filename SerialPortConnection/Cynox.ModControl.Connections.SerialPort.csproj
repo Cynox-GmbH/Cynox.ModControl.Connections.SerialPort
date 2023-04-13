@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>Cynox.ModControl</RootNamespace>
+    <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+    <Version>1.1.0</Version>
+    <Description>SerialPort connector for ModControl library.</Description>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <Authors>Cynox GmbH</Authors>
+    <PackageProjectUrl>https://github.com/Cynox-GmbH/Cynox.ModControl.Connections.SerialPort</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Cynox-GmbH/Cynox.ModControl.Connections.SerialPort</RepositoryUrl>
+    <PackageTags>ModControl; Mod-Control; SerialPort; COM-Port</PackageTags>
+    <PackageReleaseNotes>Initial nuget release.</PackageReleaseNotes>
+    <IncludeSymbols>True</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+    <RepositoryType>git</RepositoryType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Cynox.ModControl" Version="2.2.0" />
+    <PackageReference Include="System.IO.Ports" Version="6.0.0" />
+  </ItemGroup>
+
+</Project>
